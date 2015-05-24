@@ -1,9 +1,11 @@
-var ReactRouter = require('react-router');
-var routes = require('./routes');
+/*! React Alt Firebase Starter */
 
-var router = ReactRouter.create({
+import ReactRouter from 'react-router';
+import routes from './routes';
+
+let router = ReactRouter.create({
     location : ReactRouter.HashLocation,
     routes : routes
 });
 
-module.exports = router;
+export default router;

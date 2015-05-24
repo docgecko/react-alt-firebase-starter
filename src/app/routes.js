@@ -1,11 +1,15 @@
-var React = require('react');
-var { Route, DefaultRoute } = require('react-router');
+/*! React Alt Firebase Starter */
 
-var App = require('./components/App/App');
+import React from 'react';
+import { Route, DefaultRoute } from 'react-router';
+import About from './components/About';
 
-var routes = (
-    <Route name="home" path='/' handler={App}>
+import App from './components/App/App';
+
+let routes = (
+    <Route name='home' path='/' handler={App}>
+      <Route name='about' path='/about' handler={About} />
     </Route>
 );
 
-module.exports = routes;
+export default routes;

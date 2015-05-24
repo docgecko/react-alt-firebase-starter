@@ -1,7 +1,7 @@
 var Firebase = require('firebase');
 var Promise = require('bluebird');
 
-var fb = new Firebase('http://hacker-news.firebaseio.com/v0/');
+var fb = new Firebase('http://talon.firebaseio.com/v0/');
 
 // Examples
 

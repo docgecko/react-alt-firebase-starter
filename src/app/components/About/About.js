@@ -1,7 +1,8 @@
 /*! React Alt Firebase Starter */
 
-import React from 'react';
 import './About.less';
+
+import React from 'react';
 
 export default class About extends React.Component {
   render() {

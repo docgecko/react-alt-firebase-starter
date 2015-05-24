@@ -13,8 +13,7 @@ export default class App extends React.Component {
     return (
       <div>
         <Header />
-        <h1>Hello, world!</h1>
-        <RouteHandler {...this.props} />
+        <RouteHandler />
         <Footer />
       </div>
     );

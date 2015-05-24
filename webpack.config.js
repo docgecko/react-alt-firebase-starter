@@ -18,8 +18,8 @@ module.exports = {
     new webpack.NoErrorsPlugin()
   ],
   resolve: {
-    modulesDirectories: ['node_modules', './src'],
-    extensions: ['', '.js', '.jsx', '.less', '.gif', '.jpg', '.png', '.svg']
+    modulesDirectories: ['node_modules', './src/vendor'],
+    extensions: ['', '.js', '.jsx', '.css', '.less', '.gif', '.jpg', '.png', '.svg']
   },
   module: {
     loaders: [{
@@ -44,6 +44,9 @@ module.exports = {
     }, {
       test: /\.svg/,
       loaders: ['react-hot', 'url-loader?limit=10000&mimetype=image/svg+xml']
+    }, {
+      test: /\.(otf|eot|svg|ttf|woff)/,
+      loaders: ['react-hot', 'url-loader?limit=8192']
     }]
   }
 };

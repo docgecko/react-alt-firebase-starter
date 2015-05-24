@@ -1,6 +1,11 @@
-var React = require('react');
-var router = require('./router');
+/*! React Alt Firebase Starter */
+
+import React from 'react';
+import router from './router';
+
+require('./../styles/main.less');
+require('./../vendor/css/materialize.css');
 
 router.run((Handler, state) => {
-  React.render(<Handler {...state} />, document.getElementById('container'));
+  React.render(<Handler />, document.getElementById('container'));
 });

@@ -12,11 +12,11 @@ export default class Header extends React.Component {
       <header>
         <nav>
           <div className="nav-wrapper">
-            <a href="#" className="brand-logo">Logo</a>
+            <Link to='home' className="brand-logo">Logo</Link>
             <ul id="nav-mobile" className="right hide-on-med-and-down">
               <li><Link to="about">About</Link></li>
-              <li><a href="#">Components</a></li>
-              <li><a href="#">JavaScript</a></li>
+              <li><Link to="signup">Sign Up</Link></li>
+              <li><Link to="login">Login</Link></li>
             </ul>
           </div>
         </nav>

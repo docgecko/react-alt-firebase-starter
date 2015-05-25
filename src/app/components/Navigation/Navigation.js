@@ -1,11 +1,11 @@
 /*! React Alt Firebase Starter */
 
-import './Header.less';
+import './Navigation.less';
 
 import React from 'react';
 import { Link } from 'react-router';
 
-export default class Header extends React.Component {
+export default class Navigation extends React.Component {
 
   render() {
     return (

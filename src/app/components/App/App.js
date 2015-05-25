@@ -4,7 +4,7 @@ import './App.less';
 
 import React from 'react';
 import { RouteHandler } from 'react-router';
-import Header from '../Header';
+import Navigation from '../Navigation/Navigation';
 import Footer from '../Footer';
 
 export default class App extends React.Component {
@@ -12,7 +12,7 @@ export default class App extends React.Component {
   render() {
     return (
       <div>
-        <Header />
+        <Navigation />
         <RouteHandler />
         <Footer />
       </div>

@@ -1,5 +1,9 @@
+// Import local less
 @import 'variables.less';
 @import 'mixins.less';
+
+// Import 3rd party css
+@import '../vendor/css/materialize.css';
 
 //
 // Base styles
@@ -162,4 +166,15 @@ textarea {
   h3 {
     page-break-after: avoid;
   }
+}
+
+// Materialize mods
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+main {
+  flex: 1 0 auto;
 }

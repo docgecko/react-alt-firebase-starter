@@ -1,0 +1,6 @@
+{
+  "name": "PreLoader",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./PreLoader.js"
+}

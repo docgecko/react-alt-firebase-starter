@@ -12,11 +12,11 @@ export default class Navigation extends React.Component {
       <header>
         <nav>
           <div className="nav-wrapper">
-            <Link to='home' className="brand-logo">Logo</Link>
+            <Link to='Home' className="brand-logo">Logo</Link>
             <ul id="nav-mobile" className="right hide-on-med-and-down">
-              <li><Link to="about">About</Link></li>
-              <li><Link to="signup">Sign Up</Link></li>
-              <li><Link to="login">Login</Link></li>
+              <li><Link to="About">About</Link></li>
+              <li><Link to="SignUp">Sign Up</Link></li>
+              <li><Link to="Login">Login</Link></li>
             </ul>
           </div>
         </nav>

@@ -1,7 +1,7 @@
 {
   "name": "react-alt-firebase-starter",
   "version": "0.0.0",
-  "description": "Boilerplate for ReactJS project with hot code reloading",
+  "description": "Boilerplate for ReactJS, Alt (flux) & Firebase project",
   "scripts": {
     "start": "node server.js"
   },
@@ -41,7 +41,9 @@
     "less-loader": "^2.2.0",
     "lodash": "^3.9.1",
     "minimist": "^1.1.1",
+    "react-a11y": "^0.1.1",
     "react-hot-loader": "^1.2.7",
+    "rf-changelog": "^0.4.0",
     "style-loader": "^0.12.2",
     "url-loader": "^0.5.5",
     "webpack": "^1.9.6",

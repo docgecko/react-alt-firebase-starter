@@ -1,6 +1,6 @@
 /*! React Alt Firebase Starter */
 
-import './Legal.less';
+import './Privacy.less';
 
 import React from 'react';
 

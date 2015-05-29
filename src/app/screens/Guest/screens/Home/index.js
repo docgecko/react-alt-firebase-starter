@@ -5,5 +5,5 @@ import { DefaultRoute } from 'react-router';
 import Home from './components/Home';
 
 export default (
-  <DefaultRoute name='home' path='/' handler={Home}/>
+  <DefaultRoute name='home' handler={Home}/>
 );

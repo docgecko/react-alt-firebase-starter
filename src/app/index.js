@@ -2,6 +2,7 @@
 
 import React from 'react';
 import router from './config/router';
+import Alt from './config/alt';
 
 require('./../styles/main.less');
 

@@ -4,17 +4,17 @@ import React from 'react';
 import { Route, DefaultRoute, NotFoundRoute, Redirect } from 'react-router';
 
 import App from '../shared/components/App';
-import GuestRoutes from '../screens/Guest/index';
+import AnonymousRoutes from '../screens/Anonymous/index';
 import AppRoutes from '../screens/App/index';
-import AuthorizationRoutes from '../screens/Authorization/index';
+import AuthenticationRoutes from '../screens/Authentication/index';
 import AdminRoutes from '../screens/Admin/index';
 import NotFoundPage from '../shared/components/NotFoundPage';
 
 let routes = (
   <Route handler={App}>
-    {GuestRoutes}
+    {AnonymousRoutes}
     {AppRoutes}
-    {AuthorizationRoutes}
+    {AuthenticationRoutes}
     {AdminRoutes}
 
     <NotFoundRoute handler={NotFoundPage}/>

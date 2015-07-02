@@ -12,7 +12,9 @@ export default class Guest extends React.Component {
     return (
       <div>
         <Header/>
-        <RouteHandler />
+        <main>
+          <RouteHandler />
+        </main>
         <Footer/>
       </div>
     );

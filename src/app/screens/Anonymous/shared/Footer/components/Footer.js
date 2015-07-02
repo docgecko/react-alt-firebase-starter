@@ -8,7 +8,7 @@ import { Link } from 'react-router';
 export default class Footer extends React.Component {
   render() {
     return (
-      <footer className="page-footer">
+      <footer className="page-footer blue darken-4">
         <div className="container">
             <div className="row">
               <div className="col 8 s8">
@@ -19,7 +19,7 @@ export default class Footer extends React.Component {
                 <h5 className="white-text">Company</h5>
                 <ul>
                   <li><Link to="about" className="grey-text text-lighten-3">About</Link></li>
-                  <li><a className="grey-text text-lighten-3" href="mailto:email@example.com">Contact Us</a></li>
+                  <li><Link to="contact" className="grey-text text-lighten-3">Contact</Link></li>
                 </ul>
               </div>
               <div className="col 2 offset-10 s2">
@@ -31,9 +31,9 @@ export default class Footer extends React.Component {
               </div>
             </div>
           </div>
-        <div className="footer-copyright">
+        <div className="footer-copyright white">
           <div className="container">
-            © 2015 Copyright Company. All rights reserved.
+            All text & design is copyright © 2015 Apertun. All rights reserved.
           </div>
         </div>
       </footer>
